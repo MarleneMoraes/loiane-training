@@ -1,14 +1,13 @@
-// 6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+package com.loiane.cursojava.aula13.labs;
+
+import java.util.Scanner;
 
 /**
  * @author Marlene
  * @since 2022-02-03
+ * 
+ * 6. Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
  */
-
-
-package com.loiane.cursojava.aula13.labs;
-
-import java.util.Scanner;
 
 public class Ex006 {
 

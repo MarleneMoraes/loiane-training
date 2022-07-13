@@ -1,20 +1,17 @@
-/*
+package com.loiane.cursojava.aula13.labs;
+
+import java.util.Scanner;
+
+/**
+ * @author Marlene
+ * @since 2022-02-04
+ * 
  * 11. Faça um Programa que peça 2 números inteiros e um número real. 
  * Calcule e mostre:
  * 	a. o produto do dobro do primeiro com metade do segundo. 
  * 	b. a soma do triplo do primeiro com o terceiro.
  * 	c. o terceiro elevado ao cubo. 
  */
-
-
-/**
- * @author Marlene
- * @since 2022-02-04
- */
-
-package com.loiane.cursojava.aula13.labs;
-
-import java.util.Scanner;
 
 public class Ex011 {
 
