@@ -13,7 +13,7 @@ import java.util.Locale;
 
  */
 
-public class ex013 {
+public class Ex013 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

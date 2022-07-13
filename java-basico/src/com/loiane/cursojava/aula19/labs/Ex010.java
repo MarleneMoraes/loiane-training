@@ -13,7 +13,7 @@ import java.util.Locale;
  * seja: B[i] = A[i] % 2.
  */
 
-public class ex010 {
+public class Ex010 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {11, 22, 33, 44, 55, 66, 77, 88, 99, 1010};

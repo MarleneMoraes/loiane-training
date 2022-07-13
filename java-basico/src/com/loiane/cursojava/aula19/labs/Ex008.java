@@ -12,7 +12,7 @@ import java.util.Locale;
  * dos respectivos elementos em A e B, ou seja: C[i] = A[i] * B[i].
  */
 
-public class ex008 {
+public class Ex008 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

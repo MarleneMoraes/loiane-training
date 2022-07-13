@@ -12,7 +12,7 @@ import java.util.Locale;
  * dos respectivos elementos em Ae B, ou seja: C[i] = A[i] / float(B[i]).
  */
 
-public class ex009 {
+public class Ex009 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};

@@ -12,7 +12,7 @@ import java.util.Locale;
  * neste vetor.
  */
 
-public class ex012 {
+public class Ex012 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

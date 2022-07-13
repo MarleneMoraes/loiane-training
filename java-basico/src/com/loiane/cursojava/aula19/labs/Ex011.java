@@ -12,7 +12,7 @@ import java.util.Locale;
  * vetor que são pares.
  */
 
-public class ex011 {
+public class Ex011 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};

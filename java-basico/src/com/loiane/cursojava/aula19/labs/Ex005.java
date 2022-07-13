@@ -12,7 +12,7 @@ import java.util.Locale;
  * de A multiplicado por sua posição (ou índice), ou seja: B[i] = A[i] * i.
  */
 
-public class ex005 {
+public class Ex005 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
