@@ -1,15 +1,15 @@
-/*
- *	Faça um Programa que verifique se uma letra digitada é "F" ou "M".
- *	Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
- * */
+package com.loiane.cursojava.aula15.labs;
+
+import java.util.Scanner;
 
 /**
  * @author Marlene
  * @since 2022-02-06
+ * 
+ * 3. Faça um Programa que verifique se uma letra digitada é "F" ou "M".
+ *	Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
  */
-package com.loiane.cursojava.aula15.labs;
 
-import java.util.Scanner;
 
 public class Ex003 {
 

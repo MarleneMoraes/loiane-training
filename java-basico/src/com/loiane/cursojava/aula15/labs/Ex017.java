@@ -1,16 +1,15 @@
-/*
- * Faça um Programa que peça um número correspondente a um determinado ano 
- * e em seguida informe se este ano é ou não bissexto.  
- */
-/**
- * @author Marlene
- * @since 2022-02-09
- */
-
 package com.loiane.cursojava.aula15.labs;
 
 import java.util.Locale;
 import java.util.Scanner;
+
+/**
+ * @author Marlene
+ * @since 2022-02-09
+ * 
+ * 17. Faça um Programa que peça um número correspondente a um determinado ano 
+ * e em seguida informe se este ano é ou não bissexto.
+ */
 
 public class Ex017 {
 
