@@ -5,9 +5,9 @@ Exercícios foram realizados durante os cursos, iniciados em janeiro de 2021. Se
 
 - [ ] Angular [30 horas]
 
-- [ ] Estrutura de Dados com Java [07 horas]
+- [x] Estrutura de Dados com Java [07 horas]
 
-- [ ] Java Básico [25 horas]
+- [x] Java Básico [25 horas]
 
 - [ ] Java Intermediário [10 horas]
 
