@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.classesbase;
+package com.loiane.estruturadados.aula017;
 
 public class EstruturaEstatica<T> {
 	protected T[] elementos;

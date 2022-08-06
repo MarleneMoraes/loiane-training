@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.classesbase;
+package com.loiane.estruturadados.aula014;
 
 public class EstruturaEstatica<T> {
 	protected T[] elementos;
@@ -11,10 +11,6 @@ public class EstruturaEstatica<T> {
 	
 	public EstruturaEstatica() {
 		this(10);
-	}
-	
-	public boolean estaVazia() {
-		return this.tamanho == 0;
 	}
 	
 	protected void posicaoInvalida(int posicao) {
