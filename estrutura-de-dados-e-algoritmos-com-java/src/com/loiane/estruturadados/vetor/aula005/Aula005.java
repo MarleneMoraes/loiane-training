@@ -1,5 +1,13 @@
 package com.loiane.estruturadados.vetor.aula005;
 
+/**
+ * @author Marlene
+ * 
+ * Estrutura de Dados com Java
+ * Aula 05 - Obter elemento de uma posi��o
+ *
+ */
+
 import com.loiane.estruturadados.classesbase.Vetor;
 
 public class Aula005 {
@@ -11,7 +19,7 @@ public class Aula005 {
 			vetor.adiciona("elemento 2");
 			vetor.adiciona("elemento 3");
 			
-			//Lançará a Exceção
+			//Lancara a Excecao
 			System.out.println(vetor.busca(-1));
 			System.out.println(vetor.busca(15));
 			

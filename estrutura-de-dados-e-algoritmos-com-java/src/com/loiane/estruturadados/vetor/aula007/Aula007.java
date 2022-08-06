@@ -1,4 +1,12 @@
-package com.loiane.estruturadados.vetor.aula007;
+ package com.loiane.estruturadados.vetor.aula007;
+ 
+ /**
+  * @author Marlene
+  * 
+  * Estrutura de Dados com Java
+  * Aula 07 - Adicionar elemento em qualquer posição
+  *
+  */
 
 public class Aula007 {
 

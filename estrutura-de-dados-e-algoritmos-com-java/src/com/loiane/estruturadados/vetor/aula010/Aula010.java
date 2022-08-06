@@ -1,5 +1,13 @@
 package com.loiane.estruturadados.vetor.aula010;
 
+/**
+ * @author Marlene
+ * 
+ * Estrutura de Dados com Java
+ * Aula 10 - Generalizar o tipo do vetor-
+ *
+ */
+
 public class Aula010 {
 
 	public static void main(String[] args) {

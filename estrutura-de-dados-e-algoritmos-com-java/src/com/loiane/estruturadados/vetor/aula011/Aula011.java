@@ -1,5 +1,13 @@
 package com.loiane.estruturadados.vetor.aula011;
 
+/**
+ * @author Marlene
+ * 
+ * Estrutura de Dados com Java
+ * Aula 11 - Configurar o tipo do vetor dinamicamente (Generics)
+ *
+ */
+
 import com.loiane.estruturadados.vetor.aula010.Contato;
 
 public class Aula011 {
@@ -14,12 +22,12 @@ public class Aula011 {
 		 * System.out.println(vetor); //imprime ambos os elementos, mas quebra o conceito da Estrutura de Dados
 		 */
 	
-		//Generics (tipos genéricos)
+		//Generics (tipos genericos) - adicionada no Java 5
 		
 		Lista<String> vetor = new Lista<String>(1);
 		
 		/*
-		 * //A partir do Java 7 é permitido:
+		 * //A partir do Java 7 e permitido:
 		 * 
 		 * Lista<String> vetor = new Lista(1);
 		 */

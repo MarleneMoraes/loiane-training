@@ -1,5 +1,13 @@
 package com.loiane.estruturadados.vetor.aula009;
 
+/**
+ * @author Marlene
+ * 
+ * Estrutura de Dados com Java
+ * Aula 09 - Remover o elemento do vetor
+ *
+ */
+
 public class Aula009 {
 
 	public static void main(String[] args) {
@@ -20,11 +28,18 @@ public class Aula009 {
 		System.out.println("Remover o elemento E");
 		
 		int pos = vetor.busca("E");
-		if(pos > -1) {
+		
+		if (pos > -1) {
 			vetor.remove(pos);
 		} else {
-			System.out.println("Elemento n√£o existe no vetor");
+			System.out.println("Elemento n„o existe no vetor");
 		}
+		
+		System.out.println(vetor);
+		
+		System.out.println("Remover o elemento A");
+		
+		pos = vetor.busca("A");
 		
 		System.out.println(vetor);
 	}

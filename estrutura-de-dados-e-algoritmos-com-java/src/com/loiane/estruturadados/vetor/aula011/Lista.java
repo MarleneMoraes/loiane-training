@@ -2,10 +2,11 @@ package com.loiane.estruturadados.vetor.aula011;
 
 import java.lang.reflect.Array;
 
-public class Lista<T> {
+public class Lista<T> { //T de Tipo (Type) 
 	private T[] elementos;
 	private int tamanho;
 
+	//Construtor Preferencial
 	public Lista(int capacidade) {
 		this.elementos = (T[]) new Object[capacidade];
 		this.tamanho = 0;

@@ -1,12 +1,18 @@
 package com.loiane.estruturadados.vetor.aula012;
-
+/**
+ * @author Marlene
+ * 
+ * Estrutura de Dados com Java
+ * Aula 12 - API Java: ArrayList
+ *
+ */
 import java.util.ArrayList;
 
 public class Aula012 {
 
 	public static void main(String[] args) {
 		
-		// API Java: ArrayList
+		// Pertence ao java.util
 		ArrayList<String> arrayList = new ArrayList<String>();
 		
 		// Adicionar
@@ -15,7 +21,7 @@ public class Aula012 {
 
 		System.out.println(arrayList);
 		
-		//Adicionar em um index específico
+		//Adicionar em um index especifico
 		arrayList.add(1, "B");
 		
 		System.out.println(arrayList);
@@ -26,22 +32,22 @@ public class Aula012 {
 		if (existe) {
 			System.out.println("Elemento existe no array");
 		} else {
-			System.out.println("Elemento não existe no array");
+			System.out.println("Elemento nao existe no array");
 		}
 		
-		// busca do index através do elemento
+		// busca do index atraves do elemento
 		int posicao = arrayList.indexOf("B");
 		
 		if (posicao > -1) {
-			System.out.println("Elemento existe no array na posição " + posicao);
+			System.out.println("Elemento existe no array na posicao " + posicao);
 		} else {
-			System.out.println("Elemento não existe no array na posição " + posicao);
+			System.out.println("Elemento nao existe no array na posicao " + posicao);
 		}
 		
-		// busca por posição
+		// busca por posicao
 		System.out.println(arrayList.get(2));
 		
-		// método remover
+		// metodo remover
 		arrayList.remove(0);
 		arrayList.remove("B");
 		

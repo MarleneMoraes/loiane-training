@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.vetor.aula010;
+package com.loiane.estruturadados.vetor.labs;
 
 import java.util.Objects;
 
@@ -49,7 +49,6 @@ public class Contato {
 		return Objects.hash(email, nome, telefone);
 	}
 
-	//Metodo Equals: revisao da aula 43 Java Basico
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

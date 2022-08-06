@@ -11,7 +11,7 @@ public class Vetor {
 	
 	private void posicaoInvalida(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {
-			throw new IllegalArgumentException("PosiÃ§Ã£o invÃ¡lida");
+			throw new IllegalArgumentException("Posição inválida");
 		}
 	}
 	
@@ -41,7 +41,7 @@ public class Vetor {
 	
 	private void aumentaCapacidade() {
 		if (this.tamanho == this.elementos.length) {
-			String[] elementosNovos = new String[this.elementos.length*2];
+			String[] elementosNovos = new String[this.elementos.length * 2];
 			
 			for (int i = 0; i < this.elementos.length; i++) {
 				elementosNovos[i] = this.elementos[i];

@@ -18,41 +18,41 @@ public class Vetor {
 
 		return false;
 	}
-	
+
 	public String busca(int posicao) {
 		return this.elementos[posicao];
 	}
-	
+
 	//Controle apenas da classe
 	public int tamanho() {
 		return this.tamanho;
 	}
-	
+
 	@Override
 	public String toString() {
 		StringBuilder s = new StringBuilder(); 
-		
+
 		//s += "[";
 		s.append("[");
-		
+
 		for (int i = 0; i < this.tamanho - 1; i++) {
 			//s += this.elementos[i];
 			s.append(this.elementos[i]);
 			//s += ", ";
 			s.append(", ");
 		}
-		
+
 		if (this.tamanho > 0) {
 			//s += this.elementos[this.tamanho -1];
 			s.append(this.elementos[this.tamanho -1]);
 		}
-		
+
 		//s += "]";
 		s.append("]");
-		
+
 		//return Arrays.toString(elementos);
 		return s.toString();
-		
+
 	}
-	
+
 }

@@ -20,10 +20,13 @@ public class EstruturaEstatica<T> {
 			this.tamanho++;
 			return true;
 		}
+		return false;
 
+	}
+
+	private void aumentaCapacidade() {
+		// TODO Auto-generated method stub
+		
 	}
 }
 
-	private void aumentaCapacidade() {
-		// TODO Auto-generated method stub		
-}

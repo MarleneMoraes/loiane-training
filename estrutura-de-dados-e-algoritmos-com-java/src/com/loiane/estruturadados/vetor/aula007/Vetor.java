@@ -19,13 +19,13 @@ public class Vetor {
 		return false;
 	}
 	
-	/*
-	 * 0   1   2   3   4   5   6 = tamanho Ã© 5
+	/* 
+	 * 0   1   2   3   4   5   6 = tamanho é 5
 	 * B   C   E   F   G  +   + 
 	 */
 	public boolean adiciona(int posicao, String elemento) {
 		if (!(posicao >= 0 && posicao < tamanho)) {
-			throw new IllegalArgumentException("PosiÃ§Ã£o invÃ¡lida");
+			throw new IllegalArgumentException("Posição inválida");
 		}
 		
 		//mover todos os elementos
@@ -41,13 +41,13 @@ public class Vetor {
 
 	public String busca(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {
-			throw new IllegalArgumentException("PosiÃ§Ã£o invÃ¡lida");
+			throw new IllegalArgumentException("Posição inválida");
 		}
 		return this.elementos[posicao];
 	}
 
 	public int busca(String elemento) {
-		for (int i = 0; i < this.tamanho; i++) {
+		for (int i = 0; i < this.tamanho; i++) { 
 			if (this.elementos[i].equals(elemento)) {
 				return i;
 			}

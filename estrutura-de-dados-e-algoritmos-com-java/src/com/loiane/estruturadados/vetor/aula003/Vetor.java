@@ -10,7 +10,7 @@ public class Vetor {
 	}
 
 	/*
-	 * //OpÃ§Ã£o menos eficaz 
+	 * //Opção menos eficaz 
 	 * public void adiciona(String elemento) { 
 	 * 		for (int i = 0; i < this.elementos.length; i++) { 
 	 * 			if (this.elementos[i] == null) { //em um array de Strings, o elemento vazio, por padrÃ£o, Ã© nulo 
@@ -20,18 +20,18 @@ public class Vetor {
 	 * 		} 
 	 * }
 	 * 
-	 * //OpÃ§Ã£o com exceÃ§Ãµes 
+	 * //Opção com exceções 
 	 * public void adiciona(String elemento) throws Exception {
 	 * 		if (this.tamanho < this.elementos.length) { 
 	 * 			this.elementos[this.tamanho] = elemento; 
 	 * 			this.tamanho++; 
 	 * 		} else { 
-	 * 			throw new Exception("Vetor jÃ¡ estÃ¡ cheio, nÃ£o Ã© possÃ­vel adicionar mais elementos."); 
+	 * 			throw new Exception("Vetor cheio, não é possível adicionar mais elementos."); 
 	 * 		}
 	 * }
 	 */
 
-	// OpÃ§Ã£o mais eficaz
+	// Opção mais eficaz
 	public boolean adiciona(String elemento) {
 		if (this.tamanho < this.elementos.length) {
 			this.elementos[this.tamanho] = elemento;

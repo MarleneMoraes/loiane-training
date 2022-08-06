@@ -18,7 +18,7 @@ public class Lista<T> {
 	
 	private void posicaoInvalida(int posicao) {
 		if (!(posicao >= 0 && posicao < tamanho)) {
-			throw new IllegalArgumentException("PosiÃ§Ã£o invÃ¡lida");
+			throw new IllegalArgumentException("Posicao invalida");
 		}
 	}
 
@@ -81,11 +81,11 @@ public class Lista<T> {
 		
 		this.tamanho--;
 	}
-
+	
 	public int tamanho() {
 		return this.tamanho;
 	}
-
+	
 	@Override
 	public String toString() {
 		StringBuilder s = new StringBuilder();
@@ -105,5 +105,81 @@ public class Lista<T> {
 
 		return s.toString();
 	}
+	
+	/*
+	 * Exercício 01
+	 * Melhore a classe Lista e implemente o metodo contem,
+	 * semelhante ao metodo contains da classe ArrayList
+	 * */
+	
+	public boolean contem(T elemento) {
+		int posicao = busca(elemento);
+		
+		if(posicao > -1) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	/*
+	 * Exercício 02
+	 * Melhore a classe Lista e implemente o metodo ultimoindice,
+	 * semelhante ao metodo lastIndexOf da classe ArrayList
+	 * */
+	
+	public int ultimoindice(T elemento) {
+		for (int i = this.tamanho-1; i >= 0; i--) {
+			if (this.elementos[i].equals(elemento)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	/*
+	 * Exercício 03
+	 * Melhore a classe Lista e implemente o metodo remove(T elemento),
+	 * onde sera possivel remover um elemento da lista passando o mesmo como parametro.
+	 * */
+	
+	public void remove(T elemento) {
+		int posicao = busca(elemento);
+		if (posicao > -1) {
+			remove(posicao);
+		}
+	}
+
+	
+	/*
+	 * Exercício 04
+	 * Melhore a classe Lista e implemente o metodo obtem(int posicao),
+	 * onde sera possivel obter o elemento dada uma posicao do vetor.
+	 * Esse metodo e semelhante ao metodo get(int posicao) da classe ArrayList.
+	 * */
+	public T obtem(int posicao) {
+		return this.busca(posicao);
+	}
+	
+	/*
+	 * Exercício 05
+	 * Melhore a classe Lista e implemente o metodo limpar,
+	 * onde todos os elementos da lista serão removidos.
+	 * Esse metodo e semelhante ao metodo clear da classe ArrayList.
+	 * */
+
+	public void limpar() {
+		//metodo custoso mas possui liberacao de memoria
+		for(int i = 0; i < this.tamanho; i++) {
+			this.elementos[i] = null;
+		}
+		
+		this.tamanho = 0;
+		
+		//this.elementos = (T[]) new Object[this.elementos.length];
+		
+		//this.tamanho = 0;
+	}
 
 }
+
