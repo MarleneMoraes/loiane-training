@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.vetor.labs;
+package com.loiane.estruturadados.labs.vetor;
 
 /*
  * Exercício 06
