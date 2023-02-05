@@ -1,11 +1,13 @@
 # Loiane.training
 
 O repositório é composto de cursos realizados do canal **Loiane Groner**, da engenheira de software homônima. 
-Exercícios foram realizados durante os cursos, iniciados em janeiro de 2021. Segue a lista dos cursos concluídos pela plataforma, e que serão enviados para este repositório:
+Exercícios foram realizados durante os cursos. Segue a lista dos cursos ou livros concluídos, e que serão enviados para este repositório:
 
 - [ ] Angular [30 horas]
 
 - [x] Estrutura de Dados com Java [07 horas]
+
+- [x] Estrutura de Dados com JavaScript (Livro)
 
 - [x] Java Básico [25 horas]
 
