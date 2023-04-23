@@ -8,13 +8,15 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 
 import { CursosModule } from './cursos/cursos.module';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({ // Decorator
   // Metadados
   declarations: [ // todos os componentes, diretivas e pipes que serao utilizadas nesse modulo
     AppComponent,
     MeuPrimeiroComponent,
-    MeuPrimeiro2Component
+    MeuPrimeiro2Component,
+    DataBindingComponent
   ],
   imports: [ // outros modulos a serem utilizados neste modulo
     BrowserModule,

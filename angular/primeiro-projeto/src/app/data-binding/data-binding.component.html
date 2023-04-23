@@ -1,0 +1,21 @@
+<section class="property-binding">
+
+  <article>
+    <h3>
+      Interpolation / Interpolação
+    </h3>
+
+    <!-- para facilitar a leitura do codigo, a interpolacao deve ser feita com espacos -->
+    <p>Sring renderizada com interpolação: {{ url }}</p>
+    <p>Resolucao de expressões matemáticas na interpolação: {{ 1 + 1 }} ou {{ 1 + 1 + getValor() }}</p>
+    <p>Resolucao de expressões booleanas na interpolação: {{ cursoAngular && getCurtirCurso() }}</p>
+
+  </article>
+
+  <article>
+    <h3>Property Binding</h3>
+    <img src="{{ urlImagem }}">
+    <img [src]="urlImagem"> <!-- <img bind-src="urlImagem"> -->
+  </article>
+
+</section>
