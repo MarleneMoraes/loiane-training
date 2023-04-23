@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CursosComponent } from './cursos.component';
 import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component'; // importado apenas em um modulo de funcionalidade
+import { CursosService } from './cursos.service';
 
 // Modulo de funcionalidade
 // Nao ha bootstrap, mas pode ter providers
@@ -17,6 +18,9 @@ import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
   ],
   exports: [ // declaracoes que sao expostas para outros modulos
     CursosComponent
+  ],
+  providers: [ // fornecedor
+    CursosService
   ]
 })
 export class CursosModule { }
