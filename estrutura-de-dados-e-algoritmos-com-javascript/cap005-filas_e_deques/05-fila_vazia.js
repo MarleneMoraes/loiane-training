@@ -1,4 +1,4 @@
-/* Verificando se a pilha esta vazia e o seu tamanho */
+/* Verificando se a fila esta vazia e o seu tamanho */
 class Queue {
     constructor() {
         this.count = 0;
