@@ -1,4 +1,4 @@
-package com.loiane.estruturadados.aula024;
+package com.loiane.estruturadados.aula025;
 
 public class Paciente implements Comparable <Paciente> {
 	private String nome;

@@ -3,7 +3,7 @@ package com.loiane.estruturadados.aula025;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import com.loiane.estruturadados.aula024.Paciente;
+import com.loiane.estruturadados.aula025.Paciente;
 
 /**
  * @author Marlene

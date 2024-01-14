@@ -11,6 +11,7 @@ public class Lista<T> extends EstruturaEstatica<T>{
 		this(10);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public Lista(int capacidade, Class<T> tipoClasse) {
 		this.elementos = (T[]) Array.newInstance(tipoClasse, capacidade);
 		this.tamanho = 0;

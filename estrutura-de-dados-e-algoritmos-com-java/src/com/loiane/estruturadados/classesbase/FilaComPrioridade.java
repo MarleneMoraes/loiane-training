@@ -4,6 +4,7 @@ public class FilaComPrioridade<T> extends Fila<T> {
 
 	@Override
 	public void enfileira(T elemento) {
+		@SuppressWarnings("unchecked")
 		Comparable<T> chave = (Comparable<T>) elemento; //ver em classe Paciente
 		
 		int i;

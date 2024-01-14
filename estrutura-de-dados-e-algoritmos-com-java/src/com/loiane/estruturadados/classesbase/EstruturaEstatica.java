@@ -4,6 +4,7 @@ public class EstruturaEstatica<T> {
 	protected T[] elementos;
 	protected int tamanho;
 
+	@SuppressWarnings("unchecked")
 	public EstruturaEstatica(int capacidade) {
 		this.elementos = (T[]) new Object[capacidade];
 		this.tamanho = 0;
@@ -23,6 +24,7 @@ public class EstruturaEstatica<T> {
 		}
 	}
 	
+	@SuppressWarnings("unchecked")
 	private void aumentaCapacidade() {
 		if (this.tamanho == this.elementos.length) {
 			T[] elementosNovos = (T[]) new Object[this.elementos.length*2];
