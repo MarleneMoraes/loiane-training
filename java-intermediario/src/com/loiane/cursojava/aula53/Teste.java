@@ -26,7 +26,7 @@ public class Teste {
                 System.out.println("Segunda-feira");
                 break;
             case 2:
-                System.out.println("Terça-feira");
+                System.out.println("Terca-feira");
                 break;
             case 3:
                 System.out.println("Quarta-feira");
@@ -66,7 +66,7 @@ public class Teste {
                 System.out.println("Segunda-feira");
                 break;
             case TERCA:
-                System.out.println("Terça-feira");
+                System.out.println("Terca-feira");
                 break;
             case QUARTA:
                 System.out.println("Quarta-feira");
