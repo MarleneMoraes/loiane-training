@@ -11,7 +11,7 @@ Exercícios foram realizados durante os cursos. Segue a lista dos cursos ou livr
 
 - [x] Java Básico [23 horas]
 
-- [ ] Java Intermediário [09 horas]
+- [x] Java Intermediário [09 horas]
 
 - [ ] CRUD Angular + Spring [19 horas]
 
