@@ -8,29 +8,32 @@ public class Programa {
 		String alfabeto = "";
 
 		for (String letra : letras) {
-			alfabeto += letra;
+			alfabeto += letra; // problemas de performance
 		}
 
 		System.out.println(alfabeto);
 
-		StringBuffer sb = new StringBuffer();
+		// StringBuffer e thread-safe
+		StringBuffer stringBuffer = new StringBuffer();
 		for (String letra : letras) {
-			sb.append(letra);
+			stringBuffer.append(letra); // adiciona na colecao de strings
 		}
-		alfabeto = sb.toString();
+		alfabeto = stringBuffer.toString();
 
 		System.out.println(alfabeto);
 
-		alfabeto = new String(sb);
+		alfabeto = new String(stringBuffer);
 		System.out.println(alfabeto);
 
-		System.out.println(sb.reverse());
+		// Metodo reverse
+		System.out.println(stringBuffer.reverse());
 
-		StringBuilder sb_ = new StringBuilder();
+		// StringBuilder nao e thread-safe, mas realiza o mesmo procedimento que o StringBUffer
+		StringBuilder stringBuilder = new StringBuilder();
 		for (String letra : letras) {
-			sb_.append(letra);
+			stringBuilder.append(letra);
 		}
-		alfabeto = sb_.toString();
+		alfabeto = stringBuilder.toString();
 
 		System.out.println(alfabeto);
 	}
