@@ -38,6 +38,8 @@ public class Programa {
 		System.out.println(agoraSP.getTimeZone());
 		System.out.println(sdf.format(agoraSP.getTime()));
 
+		// Importante configurar por completo, pois configurar apenas o TimeZone,
+		// edita apenas o ID
 		agoraSP.add(Calendar.HOUR_OF_DAY, timeZoneSP.getOffset((System.currentTimeMillis())) / 1000 / 60 / 60);
 		System.out.println(sdf.format(agoraSP.getTime()));
 	}

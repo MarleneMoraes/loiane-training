@@ -7,15 +7,13 @@ public class Programa {
 
 	public static void main(String[] args) {
 
-		Calendar hoje1 = Calendar.getInstance();
+		// Calendar e uma classe abstrata
 
-		GregorianCalendar hoje = new GregorianCalendar();
-
-		// System.out.println(hoje);
+		GregorianCalendar hoje = new GregorianCalendar(); 
 
 		imprimirData(hoje);
 
-		System.out.println(hoje.isLeapYear(2020));
+		System.out.println(hoje.isLeapYear(2020)); // apenas na classe GregorianCalendar
 
 		GregorianCalendar hoje2 = new GregorianCalendar(2017, 0, 1);
 

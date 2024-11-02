@@ -7,8 +7,6 @@ Exercícios foram realizados durante os cursos. Segue a lista dos cursos ou livr
 
 - [x] Estrutura de Dados com Java [09 horas]
 
-- [ ] Estrutura de Dados com JavaScript (Livro)
-
 - [x] Java Básico [23 horas]
 
 - [x] Java Intermediário [09 horas]

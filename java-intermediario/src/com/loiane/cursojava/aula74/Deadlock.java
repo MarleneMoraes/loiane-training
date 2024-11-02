@@ -18,7 +18,9 @@ public class Deadlock {
 						e.printStackTrace();
 					}
 
-					System.out.println("Thread #1: tendando o acesso ao recurso 2");
+					System.out.println("Thread #1: tentando o acesso ao recurso 2"); // bloqueio do Deadlock
+					// para evitar Deadlocks, deve utilizar os metodos wait e notify para liberacao temporaria
+					// e uso dos recursos
 
 					synchronized (RECURSO2) {
 						System.out.println("Thread #1: bloqueou recurso 2");
@@ -38,7 +40,7 @@ public class Deadlock {
 						e.printStackTrace();
 					}
 
-					System.out.println("Thread #2: tendando o acesso ao recurso 1");
+					System.out.println("Thread #2: tentando o acesso ao recurso 1");
 
 					synchronized (RECURSO1) {
 						System.out.println("Thread #2: bloqueou recurso 1");
